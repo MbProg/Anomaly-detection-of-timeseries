@@ -11,16 +11,6 @@ Anomaly detection of timeseries: A comparison of statistical vs classical machin
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -73,3 +63,6 @@ The entire algorithms have been implemented in python 3.\* The major libraries w
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+## Contact
+
+Project Link: [https://github.com/MbProg/Anomaly-detection-of-timeseries](https://github.com/MbProg/Anomaly-detection-of-timeseries)
