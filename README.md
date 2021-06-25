@@ -1,7 +1,34 @@
 # Anomaly-detection-of-timeseries
 Anomaly detection of timeseries: A comparison of statistical vs classical machine learning vs deep learning approaches
 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
 Due to many requests to share the code of my research, I have decided to upload the programming code and part of the results to help other students and researchers in implementing anamoly detection methods of time series data. The code in this repository helped me to write my master thesis ["Anomaly detection of timeseries: A comparison of statistical vs classical machine learning vs deep learning approaches"](https://www.researchgate.net/publication/342898903_Master_Thesis?_sg=KGr1GnYwxaPcc7rWkL4CrSpYe6oQfcM-Ke6KYArUMnCgoLDPHoJowOUI12rHI8Vc3Yo1FttEAOlEHfsjdC_VS_xk5PaA2tBfOpKIZbeu.qlBSptPjZ-l6EsE7bggcru4jnN6_2z95C-YRIeH0D-ZR6PRL_ZAJmnGF0A4GPHRz95wGxQ3av5tz_j3GqEEiYA) and to pushlish the paper ["Anomaly Detection in Univariate Time-series: A Survey on the State-of-the-Art"](https://www.researchgate.net/publication/340374826_Anomaly_Detection_in_Univariate_Time-series_A_Survey_on_the_State-of-the-Art).  
 By reading the [thesis](https://www.researchgate.net/publication/342898903_Master_Thesis?_sg=KGr1GnYwxaPcc7rWkL4CrSpYe6oQfcM-Ke6KYArUMnCgoLDPHoJowOUI12rHI8Vc3Yo1FttEAOlEHfsjdC_VS_xk5PaA2tBfOpKIZbeu.qlBSptPjZ-l6EsE7bggcru4jnN6_2z95C-YRIeH0D-ZR6PRL_ZAJmnGF0A4GPHRz95wGxQ3av5tz_j3GqEEiYA), you will get a thorough understanding about the research and the implementation. Thus, please refer to the thesis for more information.  
 The code in this repository has the following strcuture
@@ -33,3 +60,16 @@ The code in this repository has the following strcuture
         └── UD1_UD4 (Evaluation of the statistical approache on the UD1-UD4 datasets - refer to 4.2 in the thesis)
 
 ```
+### Built With
+
+The entire algorithms have been implemented in python 3.\* The major libraries which have been used are the following:
+* Statsmodels
+* Scikit-learn (Sklearn)
+* tensorflow
+* [keras](https://github.com/fchollet/keras)
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
